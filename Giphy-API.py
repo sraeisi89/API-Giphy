@@ -1,6 +1,7 @@
 import requests
 import webbrowser
 
+# signup to acquire your own api key
 api_key ="LlBJZ6h6eSTsLN2nLcnuJg1W3I3kY1yg"
 search = input("search=====>  ")
 
@@ -10,7 +11,6 @@ print(request)
 
 with open("base.html") as my_file:
     data = my_file.read()
-
 
 gif = ""
 for i in range(16):
